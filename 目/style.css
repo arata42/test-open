@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+::-webkit-scrollbar {
+	display: none !important;
+}
+*/
+
+body {
+	background-color: #fff;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	height: 100dvh;
+	/**/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#eye {
+	position: relative;
+	width: 80%;
+	/*height: auto;
+	
+	margin: 0 auto;*/
+}
+
+#eye1, #eye2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	transform: translate(0, -50%);
+}
+
+#eye2 {
+	transition: 0.3s;
+}
+#eye2:hover {
+	transform: translate(0, -50%) !important;
+}
